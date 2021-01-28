@@ -1,0 +1,242 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+}
+#head{
+    margin-top: 2em;
+}
+.navi {
+    width:750px;
+    margin:0 auto;
+    display: flex;
+    }
+    .navi li {
+    float:left;
+    list-style: none;
+    }
+    .navi a {
+    display:block;
+    text-align:center;
+    width:150px;
+    text-decoration:none; 
+    color: white;
+    }
+#name{
+    display: flex;
+    font-size: 2em;
+    margin: 0 auto;
+}
+#namediv{
+    display: flex;
+    margin-top: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background: url(img/3.png) no-repeat top left;
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-size: cover;
+    float: left;
+}
+
+/*
+#menue{
+    background: url(img/4.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    
+    background-size: cover;
+    float: right;
+
+}
+*/
+.pro1{
+    background: url(img/7.png) no-repeat ;
+    background-size: cover;
+    width: 550px;
+    height: 60%;
+    display: block;
+    background-size: cover;
+    float: right;
+    margin-left: 4px;
+    margin-bottom: 2%;
+    
+}
+.pro2{
+    background: url(img/8.png) no-repeat;
+    width: 550px;
+    height: 60%;
+    display: block;
+    background-size: cover;
+    float: right;
+    
+
+    
+    
+}
+.pros{
+    margin: auto;
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+    width: 1104px;
+    height: 66%;
+    
+}
+#test{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 4em;
+    font-size: 2em;
+    text-shadow: 0px 0px 4px #000000;
+    
+}
+
+
+
+
+#menu{
+	width: 35px;
+	height: 30px;
+	margin: 30px 0 20px 20px;
+    cursor: pointer;
+    float: right;
+}
+.bar{
+	height: 5px;
+	width: 100%;
+	background-color: #ffffff;
+	display: block;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+#bar1{
+	transform: translateY(-4px);
+}
+#bar3{
+	transform: translateY(4px);
+}
+.nav li a{
+	color:black;
+	text-decoration: none;
+}
+.nav li a:hover{
+	color: rgb(31, 0, 116);
+}
+.nav li{
+	list-style: none;
+	padding: 16px 0;
+}
+.nav{
+	padding: 0;
+	margin: 0 20px;
+	transition: 0.3s ease;
+    display: none;
+    
+}
+.menu-bg, #menu-bar{
+	top: 4%;
+    right: 6%;
+    position: absolute;
+}
+.menu-bg{
+	z-index: 1;
+	width: 0;
+	height: 0;
+	margin: 30px 0 20px 20px;
+	background: radial-gradient(circle,#ffffff,#ffffff);
+	transition: 0.3s ease;
+}
+#menu-bar{
+    z-index: 2;	
+    width: inherit;
+}
+.change-bg{
+	width: 622px;
+    height: 70px;
+    transform: translate(-9%,-54%);
+    border-radius: 6px;
+}
+.change .bar{
+	background-color: white;
+}
+.change #bar1{
+	transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-6px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change{
+    display: block;
+    float: right;
+}
+
+h3{
+    width: 15%;
+    margin: auto;
+    text-align: center;
+    padding-top: 8%;
+    font-size: 2em;
+}
+#web{
+    width: 15%;
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 0;
+}
+
+.web1{
+    background: url(img/43.png) no-repeat ;
+    background-size: cover;
+    width: 550px;
+    height: 60%;
+    display: block;
+    background-size: cover;
+    float: right;
+    margin-left: 4px;
+    margin-bottom: 2%;
+    
+}
+.web2{
+    background: url(img/44.png) no-repeat;
+    width: 550px;
+    height: 60%;
+    display: block;
+    background-size: cover;
+    float: right;
+
+
+
+
+/* MOBILE STYLES */
+
+@media screen and (max-width: 760px){
+
+.pro1{
+    width: 400px;
+    height: 240px;
+    margin-bottom: 1em;
+    
+
+    
+} 
+.pro2{
+    width: 400px;
+    height: 240px;
+
+    
+}
+#test{
+    margin-top: 25%;
+    font-size: 1.5em;
+}
+}}
